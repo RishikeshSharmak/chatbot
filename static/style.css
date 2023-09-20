@@ -1,0 +1,95 @@
+Body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-size: 14px;
+  
+  line-height: 1.4;
+  
+  background-color: rgb(19, 224, 231);
+  
+  margin: 0;
+  
+  padding: 0;
+  }
+  
+.chat-box {
+  
+  
+  height: 350px;
+  
+  overflow: auto;
+  
+  padding: 10px;
+  
+  
+  
+  }
+  .chat-container{ max-width: 500px; margin: 0 auto; padding: 20px; background-color: #fff;
+    border-radius:5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .chat-message { padding: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    }
+    
+    
+    
+    .user-message { background-color: #091215;
+    color: #fff;
+    font-size: 20px;
+    }
+
+   
+      
+      .bot-icon {
+      
+      font-size: 20px;
+      
+       margin-right: 10px;
+      
+      border-radius: 50%;
+      
+      width: 50px;
+      
+      height: 50px;
+      }
+      .bot-message {
+
+        background-color: #484848;
+        
+        color: white;
+        
+        font-size: 20px;
+        }
+        .message-text pre code { font-size: 14px; white-space: pre-wrap;
+
+        }/* CSS for user messages */
+.user-message .message-container {
+  background-color: #DCF8C6; /* Light green background for user messages */
+}
+
+/* CSS for bot messages */
+.bot-message .message-container {
+  background-color: #E6E6E6; /* Light gray background for bot messages */
+}
+
+/* Styling for message content */
+.message-content {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Styling for icons (you may adjust size and margins as needed) */
+.user-icon, .bot-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Styling for typing indicator */
+.typing-indicator {
+  background-color: #E6E6E6;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-left: 10px;
+  font-style: italic;
+}
